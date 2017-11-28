@@ -10,6 +10,9 @@ namespace stackDojo
     {
         static void Main(string[] args)
         {
+            Stackie<int> a = new Stackie<int>();
+            a.Push(0);
+            a.Push(1);
         }
     }
 }
